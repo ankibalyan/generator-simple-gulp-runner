@@ -1,6 +1,6 @@
 {
   "name": "generator-simple-gulp-runner",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A very common html5 app optimized with really simple gulp tasks like jshint, uglifying, image minification, css minification, scss compiling etc. You can modify these tasks easily as per your need.",
   "homepage": "",
   "author": {
