@@ -1,0 +1,66 @@
+{
+  "name": "generator-simple-gulp-runner",
+  "version": "0.0.0",
+  "description": "A very common html5 app optimized with really simple gulp tasks like jshint, uglifying, image minification, css minification, scss compiling etc. You can modify these tasks easily as per your need.",
+  "homepage": "",
+  "author": {
+    "name": "Ankit Kumar",
+    "email": "ankit.kr.balyan@gmail.com",
+    "url": "https://twitter.com/ankibalyan"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman-generator",
+    "simple",
+    "gulp",
+    "generator",
+    "html5",
+    "sass",
+    "scss",
+    "jslint",
+    "image",
+    "optimize",
+    "optimization",
+    "image-min",
+    "cssmin",
+    "gulp-uglify",
+    "livereload",
+    "build",
+    "dist"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.23.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.0"
+  },
+  "devDependencies": {
+    "yeoman-test": "^1.0.0",
+    "yeoman-assert": "^2.0.0",
+    "eslint": "^2.1.0",
+    "eslint-config-xo-space": "^0.13.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-coveralls": "^0.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "ankibalyan/generator-simple-gulp-runner",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
